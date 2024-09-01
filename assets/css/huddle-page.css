@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+body {
+  background-color: #5d459c;
+}
+
+.container {
+  background: url("../img/huddle-page-background.png") center top no-repeat;
+  margin-inline: auto;
+  width: 1440px;
+  padding-block: 64px;
+  padding-inline: 80px;
+}
+
+.content {
+  background: url("../img/huddle-img.png") left center no-repeat;
+  margin-top: 104px;
+  height: 493px;
+}
+
+.text {
+  margin-left: 59px;
+  width: 520px;
+  margin-left: auto;
+}
+
+.text h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.content a {
+  margin-top: 24px;
+  display: inline-block;
+  text-decoration: none;
+  color: #684bb1;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 13px 64px;
+  box-shadow: 2px 4px 9px 3px #00000042;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.content a:hover {
+  background-color: #e880e8;
+  color: #fff;
+}
+
+.footer {
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+.socialMediaIcons {
+  margin-bottom: 40px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.socialMediaIcons a:not(:last-child) {
+  margin-right: 16px;
+}
+
+.facebookSvg:hover {
+  cursor: pointer;
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg)
+    brightness(103%) contrast(101%);
+}
+
+.twitterSvg:hover {
+  cursor: pointer;
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg)
+    brightness(103%) contrast(101%);
+}
+
+.instagramSvg:hover {
+  cursor: pointer;
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg)
+    brightness(103%) contrast(101%);
+}
